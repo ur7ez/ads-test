@@ -1,0 +1,68 @@
+html {
+    position: relative;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    /*margin-bottom: 60px;*/
+    padding-top: 15px;
+    overflow-x: hidden;
+}
+
+.main-header {
+    text-align: center;
+    color: #856404;
+}
+
+nav.nav {
+    margin: 0 20px;
+}
+
+.menu button {
+    border-radius: 10px;
+}
+
+.welcome-msg {
+    color: green;
+}
+
+.content {
+    border: 1px solid grey;
+    padding: 5px;
+    min-height: 300px;
+}
+
+.highlight-me {
+    background: lightcyan;
+    font-style: oblique;
+}
+
+.detail-container {
+    padding: 15px;
+    width: 80%;
+    margin: 10px auto;
+    font-style: initial;
+}
+
+.adv-card {
+    width: 45%;
+}
+
+.view-adv .cr-date {
+    float: right;
+}
+
+/* ================ Pagination ================ */
+
+.paging {
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.show-other-pages:hover + div.paging, div.paging:hover {
+    opacity: 1;
+    height: auto;
+}
